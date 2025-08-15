@@ -1,4 +1,4 @@
- # Netbox Metric Exporter (Work-in-progress)
+ # Netbox Metric Exporter (Work-in-progress) ** Day 3 and we just getting started.. **
 
 ___
 
@@ -34,6 +34,8 @@ I am working on this in a Linux/Windows machine. Also, this might contains loads
 ___
 
 ## Project Overview & Goals
+
+
 
 ___
 
