@@ -71,12 +71,12 @@ I created a GitLab account to have that DevOps environment and also being able t
 
 Below, is a list of what I did to make GitLab interact with the PyCharm IDE.
 
-1. Generate a GitLab PAT (Personal Access Token)
-2. Add GitLab Account to PyCharm
-3. Clone a Repository
-4. Setup Git in PyCharm
-5. Commit, Push, and Pull
-6. SSH Keys
+1. Generate a SSH key
+2. Generate a GitLab PAT (Personal Access Token)
+3. Setup Git in PyCharm
+4. Add GitLab Account to PyCharm
+5. Clone a Repository
+7. Commit, Push, and Pull
 
 ### Installation 
 
@@ -146,22 +146,22 @@ Install the locked requirements:
 
 ### Python Linters
 
-- uv add mypy  # Static type checker
-- uv add pyright # Fast type checking, optimized for larger projects
-- uv add vulture # Finds unused code
-- uv add pylint  # Code style and error checking (classic linter)
+- `uv add mypy`  # Static type checker
+- `uv add pyright` # Fast type checking, optimized for larger projects
+- `uv add vulture` # Finds unused code
+- `uv add pylint`  # Code style and error checking (classic linter)
   
 ### Python Unit Testing
 
-- uv add pytest # Third-party testing framework; uses simple assert statements, automatically discovers tests, more flexible and minimal boilerplate.
-- uv run pytest # Run tests
-- unittest # Built-in Python testing framework; uses classes and self.assert*() methods.
+- `uv add pytest` # Third-party testing framework; uses simple assert statements, automatically discovers tests, more flexible and minimal boilerplate.
+- `uv run pytest` # Run tests
+- `unittest` # Built-in Python testing framework; uses classes and self.assert*() methods.
   
 ### General & Cross-Language Linters
 
-- uv add yamllint # Is a linter for YAML files — it checks your YAML for syntax errors, formatting issues, and style consistency.
-- uv add hadolint # Is a linter for Dockerfiles — it checks your Dockerfile for syntax errors, best practices, and security issues.
-- uv add markdownlint # Is a linter for Markdown files — it checks .md files for style, formatting, and best practices.
+- `uv add yamllint` # Is a linter for YAML files — it checks your YAML for syntax errors, formatting issues, and style consistency.
+- `uv add hadolint` # Is a linter for Dockerfiles — it checks your Dockerfile for syntax errors, best practices, and security issues.
+- `uv add markdownlint` # Is a linter for Markdown files — it checks .md files for style, formatting, and best practices.
 
 ___
 
@@ -270,8 +270,13 @@ ___
 [Oh My Zsh Themes](https://github.com/ohmyzsh/ohmyzsh/wiki/themes)
 
 [GitLab-CI-YAML](https://docs.gitlab.com/ci/yaml/)
+
+[Netbox-RestAPIs](https://netboxlabs.com/docs/netbox/integrations/rest-api/)
+
 [Ubuntu-WSL](https://ubuntu.com/desktop/wsl)
+
 [UV-AstralDocs](https://docs.astral.sh/uv/)
+
 [YAML](https://docs.gitlab.com/ci/yaml/)
 
 
