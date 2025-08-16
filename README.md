@@ -1,4 +1,4 @@
- # Netbox Metric Exporter (Work-in-progress) ** Day 3 and we just getting started.. **
+ # Netbox Metric Exporter (Work-in-progress) ** Day 4 and we just getting started.. **
 
 ___
 
