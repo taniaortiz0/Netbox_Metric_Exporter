@@ -1,4 +1,4 @@
- # Netbox Metric Exporter (Work-in-progress) ** Day 4 and we just getting started.. **
+ # Netbox Metric Exporter (Work-in-progress) ** Day 5 and we just getting started.. **
 
 ___
 
@@ -30,6 +30,10 @@ ___
 ## Note:
 
 I am working on this in a Linux/Windows machine. Also, this might contains loads of information so please bear with me until I make this repository clean for user readability.
+
+## Updates:
+
+So, I am making a Medium article for the essentials needed for a DevOps Engineer so, anything on Setup section will be erased and then be posted on third-party website. Stay Tuned!
 
 ___
 
